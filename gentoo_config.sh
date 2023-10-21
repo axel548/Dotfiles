@@ -180,8 +180,8 @@ ls -l /usr/src/linux
 nano -w /etc/fstab
 
     /dev/sdb1   /boot        xfs    defaults    0 2
-    /dev/sdb2   none         swap    sw                   0 0
-    /dev/sdb3   /            xfs    ssd,defaults,noatime              0 1
+    /dev/sdb2   none         swap   sw                   0 0
+    /dev/sdb3   /            xfs    defaults,noatime              0 1
 
     /dev/cdrom  /mnt/cdrom   auto    noauto,user          0 0
 
